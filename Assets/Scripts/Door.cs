@@ -11,10 +11,10 @@ public class Door : MonoBehaviour
             Debug.Log("Player entered the trigger");
 
             // Decide rotation angle based on the direction of opening
-            float targetRotation = openInside ? -17f : 17f;
+            // float targetRotation = openInside ? -17f : 17f;
 
-            LeanTween.rotateY(gameObject, targetRotation, 1f).setEase(LeanTweenType.easeOutQuad).setOnComplete(() => {
-                Invoke("CloseDoor", 2f);
+            LeanTween.rotateY(gameObject, transform.rotation.z-203, 1f).setEase(LeanTweenType.easeOutQuad).setOnComplete(() => {
+                // Invoke("CloseDoor", 2f);
             });
         }
     }
