@@ -1,9 +1,9 @@
-Imported URP version: 12.1.6
+Imported URP version: 12.1.6 and more recent
 
 Demo Scene Steps:
 
-1) Upgrade built-in materials to URP
-   Window > Rendering > Render Pipeline Converter
+1) Upgrade built-in materials / shaders to URP
+	Window > Rendering > Render Pipeline Converter  
 
 2) Select the Directional Light object, this should update the lighting if necessary
 
