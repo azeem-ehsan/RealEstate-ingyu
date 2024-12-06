@@ -1,4 +1,4 @@
-Imported URP version: 12.1.6 and more recent
+Imported URP version: 14.0.10
 
 Demo Scene Steps:
 
